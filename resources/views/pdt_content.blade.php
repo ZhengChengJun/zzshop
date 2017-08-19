@@ -67,7 +67,7 @@
     </script>
 <script>
   $(function(){
-
+    add('selector/elements/html')
   })
 </script>
 @endsection
