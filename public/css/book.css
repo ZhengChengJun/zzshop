@@ -1,0 +1,212 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei UI","Microsoft YaHei","WenQuanYi Micro Hei",sans-serif;
+  font-size: 14px;
+}
+.BottomNav{
+  position: fixed;
+  bottom: 0%;
+  width:100%;
+  display:none;
+}
+.weui_btn_default:hover{
+  color:green;
+  background:#ccc;
+}
+#content_wrap{
+  position:fixed;
+  top:0;
+  width:100%;
+  opacity: 0.5;
+  background:green;
+  display:block;
+  z-index: 10000000000000;
+}
+.bk_important1{
+  color:green;
+  text-align: center;
+  display:block;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.bk_important{
+  color:green;
+  text-align: center;
+  display:block;
+  font-size: 17px;
+  font-weight: bold;
+}
+.weui_input{
+  color:#ccc;
+}
+
+.bk_phone_code_send:hover{
+  cursor: pointer;
+}
+.bk_summary{
+  color:#ccc;
+}
+.xiaodiaidiai{
+  position:fixed;
+  bottom: 5%;
+  width: 70px;
+  margin-left: 40%;
+  height: 40px;
+  background:#475669;
+  opacity:0.3;
+  color:#c0ccda;
+  display:none;
+  font-size: 17px;
+  box-sizing: border-box;
+  padding:1px;
+  border-radius: 5px;
+}
+.prompt{
+  font-size: 17px;
+  padding-right: 27px;
+  padding-top: 10px;
+}
+.title_bar{
+  height:40px;
+  line-height: 40px;
+  background: radial-gradient(circle, green, gray, green);
+}
+.title_bar_bank{
+  color:#fff;
+  font-size: 35px; 
+  font-weight: bold;
+  margin-left: 5%;
+}
+.title_bar_bank:hover,.title_bar_menu:hover{
+  color:gray;
+}
+.title_bar_menu{
+  color:#fff;
+  font-size: 35px;
+  line-height: 25px; 
+  font-weight: bold;
+  margin-right: 5%;
+  float: right;
+}
+.title_bar_content{
+  margin-left: 31%;
+  color:#fff;
+  font-size: 25px;
+  line-height: 20px; 
+}
+.weui_select{
+  font-size: 20px;
+}
+.shop_title{
+  color:black;
+  font-size: 25px;
+}
+.shop_detail  {
+  color:#475669;
+}
+
+/*swiper*/
+.swiper-container {
+        width: 100%;
+        height: 200px
+        
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+/*swiper*/
+.buy{
+  width:100%;
+  height:45px;
+  background:#C0CCDA;
+  position:fixed;
+  bottom:0;
+  box-sizing: border-box;
+  padding: 1%;
+}
+.gocart{
+  width:47%;
+  height:100%;
+  display:inline-block;
+  background:rgb(4,190,2);
+  border-radius: 10px;
+  margin-right: 5%;
+  text-align: center;
+  line-height: 32px;
+  font-size: 20px;
+  color:#fff;
+}
+.gobanlance{
+  height:100%;
+  display:inline-block;
+  width:47%;
+  background:#D3DCE6;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 32px;
+  font-size: 20px;
+}
